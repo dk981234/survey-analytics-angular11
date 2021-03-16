@@ -1,15 +1,13 @@
-/* To learn more about this file see: https://angular.io/config/tsconfig. */
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
+    "paths": {
+      "fs": ["src/empty.ts"],
+      "path": ["src/empty.ts"]
+    },
     "outDir": "./out-tsc/app",
     "types": []
   },
-  "files": [
-    "src/main.ts",
-    "src/polyfills.ts"
-  ],
-  "include": [
-    "src/**/*.d.ts"
-  ]
+  "files": ["src/empty.ts", "src/main.ts", "src/polyfills.ts"],
+  "include": ["src/**/*.d.ts"]
 }

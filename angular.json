@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/survey-analytics/survey.analytics.min.css",
               "src/styles.css"
             ],
             "scripts": []
